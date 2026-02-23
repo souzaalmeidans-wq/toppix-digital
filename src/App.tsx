@@ -63,7 +63,7 @@ export default function App() {
     return () => grid.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappLink = "https://wa.me/5544910133347";
+  const whatsappLink = "https://wa.me/554491013347";
 
   return (
     <div className="app-wrapper">
