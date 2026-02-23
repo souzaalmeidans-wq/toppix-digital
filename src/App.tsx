@@ -375,12 +375,12 @@ export default function App() {
           <Users       size={56} color="#173A31" aria-hidden="true" className="deco-icon icon-float" style={{ top: '50%',     left: '20px',  animationDelay: '1.2s', transform: 'translateY(-50%)' }} />
           <div className="container">
             <div className="cta-sec-content">
-              <h2>Ainda não tem certeza qual crédito é melhor pra você?</h2>
+              <h2>Ainda não sabe qual crédito é ideal para você?</h2>
               <p>
-                Sem problema. Manda uma mensagem no WhatsApp e a gente te ajuda a escolher, sem compromisso, sem pressão. Nosso trabalho é conectar você à linha de crédito certa. Simples assim.
+                Fale com a nossa equipe pelo WhatsApp. Analisamos seu perfil e indicamos a melhor linha de crédito para a sua realidade, sem compromisso e sem pressão. Nosso papel é simplificar sua escolha e conectar você à solução certa.
               </p>
               <a href={whatsappLink} className="btn-outline" target="_blank" rel="noopener noreferrer">
-                → Tirar dúvidas no WhatsApp
+                → Falar com um especialista no WhatsApp
               </a>
             </div>
           </div>
