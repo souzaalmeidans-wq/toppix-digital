@@ -63,7 +63,7 @@ export default function App() {
     return () => grid.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappLink = "https://wa.me/5544910013347";
+  const whatsappLink = "https://wa.me/5544910133347";
 
   return (
     <div className="app-wrapper">
@@ -161,8 +161,8 @@ export default function App() {
                 <ul className="card-bullets">
                   <li>Antecipe até 5 anos do seu Saque-Aniversário</li>
                   <li>A partir de R$ 100</li>
-                  <li>Sem parcela mensal</li>
-                  <li>Aprovação rápida, mesmo negativado</li>
+                  <li>Sem parcelas mensais</li>
+                  <li>Aprovação rápida, mesmo para negativados</li>
                 </ul>
                 <a href={whatsappLink} className="btn-card" target="_blank" rel="noopener noreferrer">
                   → Simular FGTS no WhatsApp
@@ -199,8 +199,8 @@ export default function App() {
                 <ul className="card-bullets">
                   <li>Contratação simples e segura</li>
                   <li>Sem comprovação de renda</li>
-                  <li>Em até 24x parcelados na fatura de energia (Companhias conveniadas)</li>
-                  <li>De R$ 400 a R$ 3.000</li>
+                  <li>Em até 12x parcelas descontadas diretamente do benefício</li>
+                  <li>Valor de até R$ 750,00</li>
                 </ul>
                 <a href={whatsappLink} className="btn-card" target="_blank" rel="noopener noreferrer">
                   → Simular Bolsa Família no WhatsApp
@@ -220,6 +220,8 @@ export default function App() {
                   <li>Análise simplificada</li>
                   <li>Dinheiro na conta em até 24h (conforme aprovação)</li>
                   <li>Ideal para quem busca flexibilidade</li>
+                  <li>De R$ 400 a R$ 3.000</li>
+                  <li>Em até 24x</li>
                 </ul>
                 <a href={whatsappLink} className="btn-card" target="_blank" rel="noopener noreferrer">
                   → Simular Conta de Luz no WhatsApp
@@ -243,7 +245,7 @@ export default function App() {
                 <TrendingDown size={32} color="#A3F46D" style={{ marginBottom: '12px' }} />
                 <div className="why-num">01</div>
                 <h4>Conectamos você às melhores taxas do mercado</h4>
-                <p>Não somos apenas uma opção — somos a ponte entre você e as instituições financeiras mais competitivas do Brasil.</p>
+                <p>Não somos apenas uma opção, somos a ponte entre você e as instituições financeiras mais competitivas do Brasil.</p>
               </div>
               <div className="why-card">
                 <MessageCircle size={32} color="#A3F46D" style={{ marginBottom: '12px' }} />
@@ -254,8 +256,8 @@ export default function App() {
               <div className="why-card">
                 <Zap size={32} color="#A3F46D" style={{ marginBottom: '12px' }} />
                 <div className="why-num">03</div>
-                <h4>Rapidez de verdade</h4>
-                <p>Simulação em minutos. Aprovação no mesmo dia (conforme análise). Dinheiro na conta sem enrolação.</p>
+                <h4>Agilidade real na liberação</h4>
+                <p>Simulação em minutos. Aprovação no mesmo dia (conforme análise). Dinheiro na conta sem burocracia.</p>
               </div>
               <div className="why-card">
                 <ShieldCheck size={32} color="#A3F46D" style={{ marginBottom: '12px' }} />
@@ -271,7 +273,7 @@ export default function App() {
               </div>
             </div>
             <div className="anti-scam">
-              🛡️ Atenção: A TOPPIX não cobra nada antes da aprovação. Se alguém pedir dinheiro antecipado, não somos nós.
+              🛡️ Aqui no Poder Financeiro, não realizamos cobrança antecipada para liberação de crédito. Todas as condições, valores e encargos estão descritos de forma transparente no contrato. Se alguém solicitar qualquer pagamento que não esteja formalizado contratualmente, não efetue e comunique imediatamente nossa equipe pelos canais oficiais de atendimento. Transparência e segurança vêm em primeiro lugar.
             </div>
           </div>
         </section>
