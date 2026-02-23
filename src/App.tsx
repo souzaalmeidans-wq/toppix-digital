@@ -93,10 +93,10 @@ export default function App() {
               </div>
 
               <p className="subheadline">
-                Conectamos você às melhores opções de empréstimo do Brasil — FGTS, CLT, Bolsa Família ou Conta de Luz. Sem enrolação. Direto no WhatsApp.
+                Conectamos você às melhores opções de empréstimo do Brasil: FGTS, CLT, Bolsa Família ou Conta de Luz. Sem enrolação. Direto no WhatsApp.
               </p>
               <p className="lead">
-                Você precisa de dinheiro agora, não semana que vem. A TOPPIX conecta você às linhas de crédito mais rápidas do mercado — com ou sem nome limpo, com ou sem carteira assinada. Escolha o empréstimo certo. Receba o dinheiro na conta.
+                Você precisa de dinheiro agora, não semana que vem. A TOPPIX conecta você às linhas de crédito mais rápidas do mercado, com ou sem nome limpo, com ou sem carteira assinada. Escolha o empréstimo certo. Receba o dinheiro na conta.
               </p>
               
               <div className="cta-block">
@@ -156,12 +156,12 @@ export default function App() {
                   <img src="/ilustra-fgts.svg" className="card-icon" alt="FGTS Icon" />
                 </div>
                 <span className="card-label label-green">FGTS</span>
-                <h3>FGTS — Antecipação do Saque-Aniversário</h3>
-                <p className="card-sub">Receba hoje o que só cairia em 2025, 2026, 2027…</p>
+                <h3>FGTS: Antecipação do Saque-Aniversário</h3>
+                <p className="card-sub">Receba hoje o que só cairia em 2026, 2027, 2028…</p>
                 <ul className="card-bullets">
                   <li>Antecipe até 5 anos do seu Saque-Aniversário</li>
                   <li>A partir de R$ 100</li>
-                  <li>Sem parcela mensal — você paga quando o saque cair</li>
+                  <li>Sem parcela mensal</li>
                   <li>Aprovação rápida, mesmo negativado</li>
                 </ul>
                 <a href={whatsappLink} className="btn-card" target="_blank" rel="noopener noreferrer">
@@ -175,7 +175,7 @@ export default function App() {
                   <img src="/ilustra-clt.svg" className="card-icon" alt="CLT Icon" />
                 </div>
                 <span className="card-label label-blue">CLT</span>
-                <h3>CLT — Crédito Consignado Trabalhador</h3>
+                <h3>CLT: Crédito Consignado Trabalhador</h3>
                 <p className="card-sub">Desconto direto na folha. Menor taxa do mercado.</p>
                 <ul className="card-bullets">
                   <li>Exclusivo para quem tem carteira assinada</li>
@@ -194,13 +194,13 @@ export default function App() {
                   <img src="/ilustra-bolsa.svg" className="card-icon" alt="Bolsa Família Icon" />
                 </div>
                 <span className="card-label label-purple">Bolsa Família</span>
-                <h3>Bolsa Família — Crédito Consignado</h3>
+                <h3>Bolsa Família: Crédito Consignado</h3>
                 <p className="card-sub">Crédito facilitado para beneficiários.</p>
                 <ul className="card-bullets">
-                  <li>Análise simplificada</li>
-                  <li>Desconto automático no benefício</li>
-                  <li>Condições acessíveis</li>
-                  <li>Aprovação rápida</li>
+                  <li>Contratação simples e segura</li>
+                  <li>Sem comprovação de renda</li>
+                  <li>Em até 24x parcelados na fatura de energia (Companhias conveniadas)</li>
+                  <li>De R$ 400 a R$ 3.000</li>
                 </ul>
                 <a href={whatsappLink} className="btn-card" target="_blank" rel="noopener noreferrer">
                   → Simular Bolsa Família no WhatsApp
@@ -213,7 +213,7 @@ export default function App() {
                   <img src="/ilustra-luz.svg" className="card-icon" alt="Conta de Luz Icon" />
                 </div>
                 <span className="card-label label-orange">Conta de Luz</span>
-                <h3>Conta de Luz — Crédito Pessoal</h3>
+                <h3>Conta de Luz: Crédito Pessoal</h3>
                 <p className="card-sub">Empréstimo rápido, sem burocracia.</p>
                 <ul className="card-bullets">
                   <li>Sem necessidade de carteira assinada</li>
@@ -260,7 +260,7 @@ export default function App() {
               <div className="why-card">
                 <ShieldCheck size={32} color="#A3F46D" style={{ marginBottom: '12px' }} />
                 <div className="why-num">04</div>
-                <h4>Transparência total — zero taxa antecipada</h4>
+                <h4>Transparência total: zero taxa antecipada</h4>
                 <p>A TOPPIX não cobra nada antes da aprovação.</p>
               </div>
               <div className="why-card">
@@ -375,7 +375,7 @@ export default function App() {
             <div className="cta-sec-content">
               <h2>Ainda não tem certeza qual crédito é melhor pra você?</h2>
               <p>
-                Sem problema. Manda uma mensagem no WhatsApp e a gente te ajuda a escolher — sem compromisso, sem pressão. Nosso trabalho é conectar você à linha de crédito certa. Simples assim.
+                Sem problema. Manda uma mensagem no WhatsApp e a gente te ajuda a escolher, sem compromisso, sem pressão. Nosso trabalho é conectar você à linha de crédito certa. Simples assim.
               </p>
               <a href={whatsappLink} className="btn-outline" target="_blank" rel="noopener noreferrer">
                 → Tirar dúvidas no WhatsApp
