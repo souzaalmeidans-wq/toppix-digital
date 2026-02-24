@@ -63,7 +63,7 @@ export default function App() {
     return () => grid.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappLink = "https://wa.me/554491013347";
+  const whatsappLink = "https://wa.me/554491013347?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20TopPIX%20e%20gostaria%20de%20falar%20com%20um%20especialista...";
 
   return (
     <div className="app-wrapper">
@@ -157,7 +157,7 @@ export default function App() {
                 </div>
                 <span className="card-label label-green">FGTS</span>
                 <h3>FGTS: Antecipação do Saque-Aniversário</h3>
-                <p className="card-sub">Receba hoje o que só cairia em 2026, 2027, 2028…</p>
+                <p className="card-sub">Receba hoje o que só cairia em 2027, 2028, 2029…</p>
                 <ul className="card-bullets">
                   <li>Antecipe até 5 anos do seu Saque-Aniversário</li>
                   <li>A partir de R$ 100</li>
@@ -273,7 +273,7 @@ export default function App() {
               </div>
             </div>
             <div className="anti-scam">
-              🛡️ Aqui no Poder Financeiro, não realizamos cobrança antecipada para liberação de crédito. Todas as condições, valores e encargos estão descritos de forma transparente no contrato. Se alguém solicitar qualquer pagamento que não esteja formalizado contratualmente, não efetue e comunique imediatamente nossa equipe pelos canais oficiais de atendimento. Transparência e segurança vêm em primeiro lugar.
+              🛡️ Aqui na TOPPIX Digital, não realizamos cobrança antecipada para liberação de crédito. Todas as condições, valores e encargos estão descritos de forma transparente no contrato. Se alguém solicitar qualquer pagamento que não esteja formalizado contratualmente, não efetue e comunique imediatamente nossa equipe pelos canais oficiais de atendimento. Transparência e segurança vêm em primeiro lugar.
             </div>
           </div>
         </section>
@@ -296,8 +296,8 @@ export default function App() {
                   {/* @ts-ignore */}
                   <dotlottie-wc src="https://lottie.host/f0dd0214-05c6-4812-8b2c-d74238786164/HuqVRRtl0T.lottie" style={{ width: '120px', height: '120px' }} autoplay loop></dotlottie-wc>
                 </div>
-                <h4>Simule e envie os documentos</h4>
-                <p>Fazemos a simulação na hora. Se bater, você envia os docs (tudo pelo WhatsApp mesmo).</p>
+                <h4>Simule sem compromisso</h4>
+                <p>Fazemos a simulação na hora, de forma rápida e segura e você decide se quer prosseguir.</p>
               </div>
               <div className="step">
                 <div className="step-num">

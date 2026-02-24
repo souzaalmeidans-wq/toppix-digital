@@ -558,7 +558,7 @@ button, input, a {
 
 .stats-grid {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   gap: 40px;
 }
@@ -665,6 +665,9 @@ button, input, a {
   color: var(--color-primary);
   font-weight: 700;
   background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .btn-outline:hover {
@@ -752,13 +755,28 @@ button, input, a {
   animation: fadeUp 0.8s ease forwards;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .bento-why {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-card:nth-child(1),
+  .why-card:nth-child(2),
+  .why-card:nth-child(3),
+  .why-card:nth-child(4),
+  .why-card:nth-child(5) {
+    grid-column: span 1;
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   :root {
     --section-py: var(--section-py-mob);
   }
 
-  .hero h1 { font-size: 40px; }
+  .hero h1 { font-size: 40px; letter-spacing: -1px; }
 
   .logo-img { height: 36px; }
   .footer-logo .logo-img { height: 32px; }
@@ -864,5 +882,10 @@ button, input, a {
 
   .testimonials-grid {
     grid-template-columns: 1fr;
+  }
+
+  .btn-outline {
+    padding: 14px 20px;
+    font-size: 14px;
   }
 }
