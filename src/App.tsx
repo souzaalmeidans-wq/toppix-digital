@@ -121,27 +121,27 @@ export default function App() {
           </div>
           <div className="partners-track-wrapper">
             <div className="partners-track">
-              <div className="partner-card"><img src="/parceiro-itau.png" className="partner-logo" alt="Itaú" /></div>
-              <div className="partner-card"><img src="/parceiro-grandino.png" className="partner-logo" alt="Grandino" /></div>
-              <div className="partner-card"><img src="/parceiro-c6.png" className="partner-logo" alt="C6 Bank" /></div>
-              <div className="partner-card"><img src="/parceiro-mercantil.png" className="partner-logo" alt="Mercantil do Brasil" /></div>
-              <div className="partner-card"><img src="/parceiro-prata.png" className="partner-logo" alt="Prata" /></div>
-              <div className="partner-card"><img src="/parceiro-lotus.png" className="partner-logo" alt="Lotus" /></div>
-              <div className="partner-card"><img src="/parceiro-agilizza.png" className="partner-logo" alt="Agilizza" /></div>
-              <div className="partner-card"><img src="/parceiro-novosaque.png" className="partner-logo" alt="Novo Saque" /></div>
-              <div className="partner-card"><img src="/parceiro-granapix.png" className="partner-logo" alt="GranaPix" /></div>
-              <div className="partner-card"><img src="/parceiro-facta.png" className="partner-logo" alt="Facta" /></div>
+              <div className="partner-card"><img src="/parceiro-itau.png" className="partner-logo" alt="Itaú" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-grandino.png" className="partner-logo" alt="Grandino" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-c6.png" className="partner-logo" alt="C6 Bank" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-mercantil.png" className="partner-logo" alt="Mercantil do Brasil" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-prata.png" className="partner-logo" alt="Prata" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-lotus.png" className="partner-logo" alt="Lotus" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-agilizza.png" className="partner-logo" alt="Agilizza" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-novosaque.png" className="partner-logo" alt="Novo Saque" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-granapix.png" className="partner-logo" alt="GranaPix" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-facta.png" className="partner-logo" alt="Facta" loading="lazy" /></div>
               {/* Duplicado para loop infinito */}
-              <div className="partner-card"><img src="/parceiro-itau.png" className="partner-logo" alt="Itaú" /></div>
-              <div className="partner-card"><img src="/parceiro-grandino.png" className="partner-logo" alt="Grandino" /></div>
-              <div className="partner-card"><img src="/parceiro-c6.png" className="partner-logo" alt="C6 Bank" /></div>
-              <div className="partner-card"><img src="/parceiro-mercantil.png" className="partner-logo" alt="Mercantil do Brasil" /></div>
-              <div className="partner-card"><img src="/parceiro-prata.png" className="partner-logo" alt="Prata" /></div>
-              <div className="partner-card"><img src="/parceiro-lotus.png" className="partner-logo" alt="Lotus" /></div>
-              <div className="partner-card"><img src="/parceiro-agilizza.png" className="partner-logo" alt="Agilizza" /></div>
-              <div className="partner-card"><img src="/parceiro-novosaque.png" className="partner-logo" alt="Novo Saque" /></div>
-              <div className="partner-card"><img src="/parceiro-granapix.png" className="partner-logo" alt="GranaPix" /></div>
-              <div className="partner-card"><img src="/parceiro-facta.png" className="partner-logo" alt="Facta" /></div>
+              <div className="partner-card"><img src="/parceiro-itau.png" className="partner-logo" alt="Itaú" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-grandino.png" className="partner-logo" alt="Grandino" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-c6.png" className="partner-logo" alt="C6 Bank" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-mercantil.png" className="partner-logo" alt="Mercantil do Brasil" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-prata.png" className="partner-logo" alt="Prata" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-lotus.png" className="partner-logo" alt="Lotus" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-agilizza.png" className="partner-logo" alt="Agilizza" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-novosaque.png" className="partner-logo" alt="Novo Saque" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-granapix.png" className="partner-logo" alt="GranaPix" loading="lazy" /></div>
+              <div className="partner-card"><img src="/parceiro-facta.png" className="partner-logo" alt="Facta" loading="lazy" /></div>
             </div>
           </div>
         </section>
@@ -153,7 +153,7 @@ export default function App() {
               {/* CARD 1 */}
               <div className="card">
                 <div className="card-icon-wrapper">
-                  <img src="/ilustra-fgts.svg" className="card-icon" alt="FGTS Icon" />
+                  <img src="/ilustra-fgts.svg" className="card-icon" alt="FGTS Icon" loading="lazy" />
                 </div>
                 <span className="card-label label-green">FGTS</span>
                 <h3>FGTS: Antecipação do Saque-Aniversário</h3>
@@ -172,7 +172,7 @@ export default function App() {
               {/* CARD 2 */}
               <div className="card">
                 <div className="card-icon-wrapper">
-                  <img src="/ilustra-clt.svg" className="card-icon" alt="CLT Icon" />
+                  <img src="/ilustra-clt.svg" className="card-icon" alt="CLT Icon" loading="lazy" />
                 </div>
                 <span className="card-label label-blue">CLT</span>
                 <h3>CLT: Crédito Consignado Trabalhador</h3>
@@ -191,7 +191,7 @@ export default function App() {
               {/* CARD 3 */}
               <div className="card">
                 <div className="card-icon-wrapper">
-                  <img src="/ilustra-bolsa.svg" className="card-icon" alt="Bolsa Família Icon" />
+                  <img src="/ilustra-bolsa.svg" className="card-icon" alt="Bolsa Família Icon" loading="lazy" />
                 </div>
                 <span className="card-label label-purple">Bolsa Família</span>
                 <h3>Bolsa Família: Crédito Consignado</h3>
@@ -210,7 +210,7 @@ export default function App() {
               {/* CARD 4 */}
               <div className="card">
                 <div className="card-icon-wrapper">
-                  <img src="/ilustra-luz.svg" className="card-icon" alt="Conta de Luz Icon" />
+                  <img src="/ilustra-luz.svg" className="card-icon" alt="Conta de Luz Icon" loading="lazy" />
                 </div>
                 <span className="card-label label-orange">Conta de Luz</span>
                 <h3>Conta de Luz: Crédito Pessoal</h3>
@@ -342,7 +342,7 @@ export default function App() {
                   "Eu estava precisando de dinheiro urgente e não conseguia em lugar nenhum por estar negativada. O atendimento da TOPPIX pelo WhatsApp foi maravilhoso, falaram com calma e em poucas horas o dinheiro do FGTS já estava na minha conta!"
                 </p>
                 <div className="testimonial-author">
-                  <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Maria&backgroundColor=173A31" width="48" height="48" style={{ borderRadius: '50%' }} alt="Avatar Maria Silva" />
+                  <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Maria&backgroundColor=173A31" width="48" height="48" style={{ borderRadius: '50%' }} alt="Avatar Maria Silva" loading="lazy" />
                   <div>
                     <strong>Maria Silva</strong>
                     <p style={{ fontSize: '14px', color: 'var(--color-muted)' }}>Antecipação FGTS</p>
@@ -355,7 +355,7 @@ export default function App() {
                   "Impressionado com a rapidez. Mandei mensagem, fiz a simulação e no mesmo dia resolvi tudo. Sem burocracia, sem robôs, atendimento humano de verdade. Recomendo muito para quem precisa de crédito rápido."
                 </p>
                 <div className="testimonial-author">
-                  <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Joao&backgroundColor=173A31" width="48" height="48" style={{ borderRadius: '50%' }} alt="Avatar João Pedro" />
+                  <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Joao&backgroundColor=173A31" width="48" height="48" style={{ borderRadius: '50%' }} alt="Avatar João Pedro" loading="lazy" />
                   <div>
                     <strong>João Pedro</strong>
                     <p style={{ fontSize: '14px', color: 'var(--color-muted)' }}>Crédito CLT</p>
@@ -392,7 +392,7 @@ export default function App() {
         <div className="container">
           <div className="footer-content">
             <a href="#home" className="logo-link footer-logo">
-              <img src="/logo-toppix.webp" className="logo-img" alt="TOPPIX Digital - Intermediação de Crédito" />
+              <img src="/logo-toppix.webp" className="logo-img" alt="TOPPIX Digital - Intermediação de Crédito" loading="lazy" />
             </a>
             <p className="copyright">© 2026 TOPPIX Digital.</p>
             <p className="legal-text">

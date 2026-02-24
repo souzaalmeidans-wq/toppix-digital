@@ -284,6 +284,7 @@ button, input, a {
   gap: 20px;
   width: max-content;
   animation: marquee 38s linear infinite;
+  will-change: transform;
 }
 
 @keyframes marquee {
@@ -360,6 +361,7 @@ button, input, a {
   max-height: 120px;
   object-fit: contain;
   animation: float 3.6s ease-in-out infinite;
+  will-change: transform;
 }
 
 @keyframes float {
@@ -720,13 +722,24 @@ button, input, a {
   justify-content: center;
   z-index: 9999;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  animation: pulse 2s infinite;
+  will-change: transform;
 }
 
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(163, 244, 109, 0.7); }
-  70% { box-shadow: 0 0 0 20px rgba(163, 244, 109, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(163, 244, 109, 0); }
+.fab-whatsapp::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(163, 244, 109, 0.7);
+  animation: pulse-ring 2s infinite;
+  z-index: -1;
+  will-change: transform, opacity;
+}
+
+@keyframes pulse-ring {
+  0%   { transform: scale(1);   opacity: 0.7; }
+  70%  { transform: scale(1.5); opacity: 0;   }
+  100% { transform: scale(1.5); opacity: 0;   }
 }
 
 /* Animations */
@@ -748,9 +761,9 @@ button, input, a {
   85%      { transform: translateY(0); }
 }
 
-.icon-pulse  { animation: iconPulse  2s   ease-in-out infinite; }
-.icon-bounce { animation: iconBounce 1.8s ease        infinite; }
-.icon-float  { animation: float      3.6s ease-in-out infinite; }
+.icon-pulse  { animation: iconPulse  2s   ease-in-out infinite; will-change: transform; }
+.icon-bounce { animation: iconBounce 1.8s ease        infinite; will-change: transform; }
+.icon-float  { animation: float      3.6s ease-in-out infinite; will-change: transform; }
 
 .animate-fade-up {
   animation: fadeUp 0.8s ease forwards;
